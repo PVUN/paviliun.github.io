@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+    /*--bs-primary-rgb: 10,30,115;*/
+    /*--bs-success-rgb: 0,141,118;*/
+    --bs-dark-rgb: 0,0,0;
+}
+
+html, body{
+	font-family: 'Cuprum', Georgia, 'Times New Roman', Times, Serif;
+	font-size: 17px;
+	color: #f8f9fa;
+	padding: 0px;
+	margin: 0px;
+	background-color: #e54c00d6;
+	background: radial-gradient(circle,#ee5600 30%, #421900 100%);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	overflow-x: hidden;
+}
+
+a {
+  color: #abafb3;
+}
+
+a:hover {
+  color: #abafb3;
+}
+
+section {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-0 {
+	background: #04060666;
+}
+
+.section-1 {
+	background-color: #04060666;
+}
+
+.section-2 {
+	background-color: #04060666;
+}
+
+.section-3 {
+	background-color: #04060666;
+}
+
+.section-4 {
+	background-color: #04060666;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.logo {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	max-width: 90%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.tokentrack-container img{
+	max-width: 100%;
+	max-height: 66px;
+	margin-bottom: 9px;
+}
+
+.about-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent;
+}
+
+.strike {
+	text-decoration:line-through;
+	color:#abafb3;
+}
+
+.footer-text {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #ccc;
+}
+
+.up_git {
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+	opacity: 0.1;
+	position: fixed;
+	z-index: 9999;
+	bottom: 40px;
+	right: 20px;
+	display: inline;
+	background: url("../images/icons/up.png");
+	background-repeat: no-repeat;
+}
+
+.up_git:hover {
+	opacity: 0.9
+}
+
+.wallet-mr {
+  max-width: 40%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
+
+@media screen and (max-width: 479px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+	.logo {
+		max-width: 90%;
+	}
+}
